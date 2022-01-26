@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="73483" started-at="2022-01-24T17:40:50Z" finished-at="2022-01-24T17:42:03Z">
+  <suite name="Default suite" duration-ms="47" started-at="2022-01-26T20:00:02Z" finished-at="2022-01-26T20:00:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="73483" started-at="2022-01-24T17:40:50Z" finished-at="2022-01-24T17:42:03Z">
-      <class name="planittesting.TestCase3">
-        <test-method status="PASS" signature="setUptest()[pri:0, instance:planittesting.TestCase3@668bc3d5]" name="setUptest" is-config="true" duration-ms="3353" started-at="2022-01-25T04:40:50Z" finished-at="2022-01-25T04:40:53Z">
+    <test name="Default test" duration-ms="47" started-at="2022-01-26T20:00:02Z" finished-at="2022-01-26T20:00:02Z">
+      <class name="com.Mytests.FillEntriesTest">
+        <test-method status="FAIL" signature="setupTest(java.lang.String)[pri:0, instance:com.Mytests.FillEntriesTest@38082d64]" name="setupTest" is-config="true" duration-ms="0" started-at="2022-01-27T07:00:02Z" finished-at="2022-01-27T07:00:02Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method setupTest but has not been marked @Optional or defined
+in C:\Users\Rahul\AppData\Local\Temp\testng-eclipse--1088255319\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method setupTest but has not been marked @Optional or defined
+in C:\Users\Rahul\AppData\Local\Temp\testng-eclipse--1088255319\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:159)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:372)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:90)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:605)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUptest -->
-        <test-method status="PASS" signature="Shopping()[pri:0, instance:planittesting.TestCase3@668bc3d5]" name="Shopping" duration-ms="69399" started-at="2022-01-25T04:40:53Z" finished-at="2022-01-25T04:42:03Z">
+        </test-method> <!-- setupTest -->
+        <test-method status="SKIP" signature="Exit()[pri:0, instance:com.Mytests.FillEntriesTest@38082d64]" name="Exit" is-config="true" duration-ms="0" started-at="2022-01-27T07:00:02Z" finished-at="2022-01-27T07:00:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Shopping -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:planittesting.TestCase3@668bc3d5]" name="afterTest" is-config="true" duration-ms="708" started-at="2022-01-25T04:42:03Z" finished-at="2022-01-25T04:42:03Z">
+        </test-method> <!-- Exit -->
+        <test-method status="SKIP" signature="verifysuccefulEntry()[pri:0, instance:com.Mytests.FillEntriesTest@38082d64]" name="verifysuccefulEntry" duration-ms="0" started-at="2022-01-27T07:00:02Z" finished-at="2022-01-27T07:00:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- planittesting.TestCase3 -->
+        </test-method> <!-- verifysuccefulEntry -->
+      </class> <!-- com.Mytests.FillEntriesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

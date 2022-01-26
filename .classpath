@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="main/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/CDC-1.1%Foundation-1.1"/>
 	<classpathentry kind="lib" path="C:/Selenium/selenium-java-4.1.0/selenium-java-4.1.0-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/selenium-java-4.1.0/lib/async-http-client-2.12.3.jar"/>
